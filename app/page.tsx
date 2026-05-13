@@ -406,6 +406,7 @@ onClick={() => window.scrollTo({
 
                 <input
                   type="text"
+                  autoComplete="off"
                   value={ville}
                   onChange={(e) => setVille(e.target.value)}
                   className="w-full border-2 border-gray-200 rounded-2xl p-3 mt-1 text-sm font-medium"
@@ -425,9 +426,10 @@ onClick={() => window.scrollTo({
 
                 <input
                   type="text"
+                  autoComplete="off"
                   value={adresse}
                   onChange={(e) => setAdresse(e.target.value)}
-                  className="w-full border-2 border-gray-200 rounded-2xl p-3 mt-1 text-sm font-medium"
+                  className="w-full rounded-2xl border-2 border-gray-200 bg-white px-4 py-3 text-black placeholder-gray-500 outline-none focus:border-pink-500 focus:ring-2 focus:ring-pink-200"
                 />
 
                 <p className="text-xs text-gray-500 mt-1">
